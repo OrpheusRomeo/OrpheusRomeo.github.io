@@ -318,8 +318,26 @@
   
 
 
+
+  
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/about/index.html",
+  owner: 'OrpheusRomeo',
+  repo: 'OrpheusRomeo.github.io',
+  oauth: {
+    client_id: '3a370676a119bafcccee',
+    client_secret: 'fc8382a187e87790709f2ba7590f2e97cedfd896',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
